@@ -1,0 +1,112 @@
+header a {
+  color: gray;
+  padding-left: 2.5rem;
+}
+
+header a:hover {
+  color: black;
+}
+
+header a:active {
+  color: black;
+}
+
+#menu-slika {
+  width: 20px;
+}
+
+#hero-section {
+  background-image: url(../imgs/hero.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 72vh;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #hero-section {
+    height: 40vh;
+  }
+  #zeleni-tekst {
+    position: relative;
+    right: 10%;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  #hero-section {
+    height: 30vh;
+  }
+  #zeleni-tekst {
+    position: relative;
+    left: -16%;
+    white-space: nowrap;
+    font-size: 20px;
+    top: 24%;
+  }
+}
+@media (max-width: 575px) {
+  #hero-section {
+    height: 20vh;
+  }
+
+  #zeleni-tekst {
+    position: relative;
+    right: 15%;
+    white-space: nowrap;
+    font-size: 13px;
+  }
+}
+#joystick-tekst {
+  font-weight: bolder;
+  background-color: #35c58c;
+  position: absolute;
+  left: 25%;
+  top: 20%;
+}
+
+.slika-blog {
+  width: 100%;
+}
+
+.slika-prva {
+  width: 100%;
+}
+
+#list {
+  background-color: #222222;
+  padding-bottom: 7%;
+  padding-top: 2%;
+}
+
+.list-group-item {
+  background-color: #222222;
+  color: #ababab;
+  border-color: #ababab;
+  font-size: 13px;
+}
+
+.manja-lista {
+  font-size: 13px;
+}
+
+#prva-linija {
+  border-top: solid 1px #ababab;
+}
+
+#zadnja-linija {
+  border-bottom: solid 1px #ababab;
+}
+
+#prva-linija-druge {
+  border-top: solid 1px #ababab;
+}
+
+#zadnja-linija-druge {
+  border-bottom: solid 1px #ababab;
+}
+
+footer {
+  background-color: black;
+  color: #ababab;
+  padding-top: 1%;
+}
